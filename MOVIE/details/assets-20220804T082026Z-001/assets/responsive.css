@@ -1,0 +1,615 @@
+@media only screen and (min-width: 0px) and (max-width: 559px) {
+    .responsive{
+        display: block;
+    }
+
+    .header{
+        width: 100%;
+        /* width: 375px; */
+        height: 45px;
+    }
+
+    .nav{
+        padding: 0;
+    }
+
+    .nav > ul{
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav > ul li:nth-child(2){
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav > ul li:nth-child(3){
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+
+    .nav > ul li{
+        width: calc(100%/3);
+        flex: 1;
+    }
+
+    .nav img{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .find_menu{
+        padding: 0;
+        height: 30px;
+    }
+
+    .fi-br-menu-burger{
+        color: #fff;
+        font-size: 20px;
+        margin-left: 5px;
+        height: max-content;
+        display: flex;
+        justify-items: flex-start;
+    }
+
+    .fi-br-search{
+        font-size: 20px;
+        color: blueviolet;
+        display: flex;
+        justify-items: flex-end;
+        align-items: center;
+    }
+
+
+
+    .sub_menu1{
+        display: none;
+    }
+    .sub_menu2{
+        display: none;
+    }
+
+
+    
+
+    #Navigation {
+        margin-top: 50px;
+    }
+
+    .nav2 li a {
+        padding: 0 12px;
+    }
+
+    
+
+    .subnav li a {
+        font-size: 14px;
+    }
+
+    .navbar {
+        display         : flex;
+        flex-direction  : column;
+        height          : max-content;
+        background-size : contain;
+        background-image: url(https://i.vietgiaitri.com/2022/1/6/xon-xao-anh-con-cua-conan-va-ran-ban-nguoi-that-nhan-sac-gay-bat-ngo-lon-nhung-giong-bo-hay-me-hon-day-744-6253103.jpg);
+    }
+
+    .navbar h1 {
+        font-size : 18px;
+        position  : relative;
+        margin-top: 120px;
+        text-align: center;
+    }
+
+    .navbar .content-img {
+        width : 110px;
+        height: 150px;
+        left  : -130px;
+        top   : 20px;
+    }
+
+
+    .subitems {
+        display        : flex;
+        justify-content: center;
+        padding-left   : 50px;
+    }
+
+    .subitems .test {
+        padding-left: 0;
+    }
+
+
+    .subitems h3 {
+        padding-right: 15px;
+
+    }
+
+    .subitems .film {
+        padding-left: 0;
+    }
+
+    .play i {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+    }
+
+
+    .subitems .play {
+        display: block;
+
+    }
+
+    .text-content {
+        display         : flex;
+        justify-content : center;
+        margin          : 25px 0;
+        padding         : 25px;
+        border-radius   : 10px;
+        background-color: #ccc;
+    }
+
+
+    .hihi {
+        display       : flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+
+    .test {
+        width       : 45px;
+        height      : 45px;
+        margin      : 0;
+        padding     : 0;
+        padding-left: 10px;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .text1 {
+        margin-left     : 25px;
+        margin-top      : 0;
+        padding         : 30px;
+        background-color: rgb(222, 216, 216);
+    }
+
+    .text1 h3 {
+        margin-top: 0;
+    }
+
+    .text2 p {}
+
+    .contents {
+        margin: 10px;
+    }
+
+    .contents hr {
+        margin: 1rem;
+    }
+
+
+
+
+    /* <......................> */
+    footer {
+        padding: 20px 20px;
+    }
+
+    .head_footer img {
+        display: none;
+    }
+
+    .footer {
+        display       : flex;
+        flex-direction: column;
+
+    }
+
+    .navbar .items-content {
+        padding-bottom: 0;
+    }
+
+    .slider {
+        margin: 0;
+    }
+
+    .content3 {
+        margin: 0;
+        width : 100%;
+    }
+
+
+    .slider h3 {
+        margin: 0;
+    }
+
+    .name-sider h3 {
+        margin: 3px;
+    }
+
+    .slider .movies:first-child {
+        padding: 0;
+    }
+
+    .slider .list-slider {
+        margin-left: 0;
+    }
+
+    .movies img {
+        min-height: 90px;
+        min-width : 80px;
+    }
+
+    .list-slider .movies {
+        padding-top: 0;
+    }
+
+
+    .contents .fullcast {
+        margin: 10px 0;
+    }
+
+    .fullcast hr {
+        margin-left: 1rem;
+    }
+
+    .content3 hr {
+        margin: 10px 10px;
+    }
+
+    .Season {
+        margin: 5px;
+        height: 180px;
+    }
+
+
+    .Season img {
+        height   : 90px !important;
+        min-width: 110px !important;
+        display  : none;
+    }
+
+    .Season1 h3,
+    .Season1 h4,
+    .Season1 p {
+        margin: 5px 5px;
+    }
+
+    .fullcast h3 {
+        margin: 0 10px;
+    }
+
+    .fullcast p {
+        margin: 0 10px;
+    }
+
+    .content3 .Media {
+        margin-left    : 5px;
+        display        : flex;
+        justify-content: space-between;
+    }
+
+    .Media h3 {
+        margin-right: 20px;
+    }
+
+    .Popular {
+        display           : flex;
+        flex-wrap         : wrap;
+        justify-content   : flex-start;
+        flex-direction    : row-reverse;
+        /* justify-content: space-between; */
+        /* width          : 50%;  */
+    }
+
+    .Popular h3 {
+        font-size: 14px;
+        /* flex  : 1; */
+    }
+
+    .Popular h3:first-child {
+        margin-right: 5px;
+    }
+
+    .Popular .Video {
+        padding-right: 13px;
+    }
+
+    .content3 .img-media {
+        margin: 0;
+    }
+
+    .img-media img:first-child {
+        width : 190px;
+        height: 110px;
+    }
+
+
+    .slider {
+        display       : flex;
+        flex-direction: column;
+    }
+
+    .banner .Status {
+        margin-top: 0;
+    }
+
+    .show-img {
+        margin: 0 5px;
+        height: 2rem;
+    }
+
+    .show-img h4 {
+        margin-bottom: 7px;
+        margin-left  : 1.5rem;
+    }
+
+    .content3 .Media {
+
+        padding: 0;
+    }
+
+    .img-last {
+        margin: 0;
+    }
+
+    .img-last img {
+        display        : flex;
+        justify-content: space-around;
+        width          : 7rem;
+    }
+
+    .dungdz {
+        margin-left: 1rem;
+    }
+
+    .img-coco {
+        margin-left: 1rem;
+    }
+
+    .img-coco img {
+        width          : 5rem;
+        display        : flex;
+        justify-content: space-around;
+        margin-right   : 2px;
+    }
+
+    .img-coco .img1,
+    .img-coco .img2,
+    .img-coco .img3,
+    .img-coco .img4 {
+        width : 60px;
+        height: 40px;
+    }
+
+    .Almost {
+        width: 75% !important;
+    }
+
+    .LoginEdit {
+        width: 60%;
+    }
+
+    /* .content3 .Media h3:first-child{
+        margin-right: 20px;
+    } */
+
+    footer{
+        padding: 20px 20px;
+    }
+
+    .head_footer img{
+        display: none;
+    }
+
+    .head_footer button{
+        font-size: 14px;
+    }
+
+    .body_footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inner_footer{
+        width: max-content;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 820px) {
+    .responsive {
+        display: block;
+    }
+
+    .header {
+        padding: 12px 15px;
+    }
+
+    .nav {
+        padding: 0;
+    }
+
+    .sub_menu1 {
+        width: 50%;
+    }
+
+    .menu_items1 li {
+        padding: 10px;
+    }
+
+    .menu_items1 .TV {
+        display: none;
+    }
+
+    .menu_items2 li {
+        /* padding: 10px; */
+    }
+
+    .menu_items2 li:first-child {
+        display: none;
+    }
+
+    .find_menu {
+        padding: 0 10px;
+    }
+
+    .fi-br-search {
+        display: none;
+    }
+
+    /* .fi-br-plus{
+        display: none;
+    } */
+
+    .menu_items2 li:first-child {
+        display: none;
+    }
+
+    /* img, picture, video, canvas, svg{
+        display: none;
+    } */
+
+    .responsive li img {
+        display: none;
+    }
+
+
+    /* <..................> */
+
+    .navbar .content-img {
+        background-image : url(http://lovedia.vn/wp-content/uploads/2015/05/Detective-Conan-5.jpg);
+        position         : absolute;
+        z-index          : 2;
+        display          : block;
+        height           : 250px;
+        width            : 200px;
+        margin           : 0 40px;
+        border-width     : 0px;
+        outline          : none;
+        background-size  : cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .text1{
+        margin-top: 15px;
+    }
+
+    .navbar .items-content{
+        /* margin: 50px 100px; */
+        padding: 40px 270px;
+    }
+
+    .text2 {
+        width: 100%;
+    }
+
+    .slider{
+        margin: 0;
+    }
+
+    .slider h3{
+        margin: 1rem 2rem !important;
+    }
+
+    .list-slider .movies:first-child{
+        margin-left: 0;
+    }
+
+    .movies img{
+        min-width: 100px;
+        min-height: 110px;
+    }
+
+    .content3{
+        margin: 0;
+        width: 60%;
+    }
+
+    .content3 hr{
+        margin-left:2rem ;
+        margin-top: 1rem;
+        width: 93%;
+    }
+
+    .contents .fullcast{
+        margin: 0 2rem;
+    }
+
+    .slider .list-slider{
+        margin: 0;
+    }
+
+    .Season{
+        margin: 1rem ;
+    }
+
+    .fullcast p{
+        margin-left: 2rem;
+    }
+
+    .show-img{
+        margin:0.4rem 0;
+        height: 2rem;
+    }
+
+    .show-img h4{
+        /* margin: 0; */
+        margin-bottom: 0.4rem;
+    }
+
+    .img-coco{
+        margin: 0 1rem;
+    }
+
+    .img-last{
+        margin-left: 1rem;
+    }
+
+    .img-last img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .dungdz{
+        margin-left: 2rem;
+    }
+
+    footer{
+        padding: 40px 40px;
+    }
+
+    .head_footer img{
+        display: none;
+    }
+
+    .body_footer{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .inner_footer{
+        width: 40%;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}

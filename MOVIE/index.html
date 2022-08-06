@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home/home page/reset.css">
+    <link rel="stylesheet" href="home/home page/main.css">
+    <link rel="stylesheet" href="home/home page/responsive.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://www.themoviedb.org/assets/2/favicon-32x32-543a21832c8931d3494a68881f6afcafc58e96c5d324345377f3197a37b367b5.png">
+    <title>TMDB.com</title>
+</head>
+
+
+<body>
+
+    <div class="header">
+        <div class="nav">
+            <!-- ---------------  -->
+            <ul class="responsive">
+                <li>
+                    <i class="fi fi-br-menu-burger"></i>
+                </li>    
+                <li>
+                    <img src="img/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg" alt="">
+                </li>
+                <li>
+                    <i class="fi fi-br-search"></i>
+                </li>
+            </ul>
+            <!-- ---------------  -->
+            <div class="sub_menu1">
+                <ul class="menu_items1">
+                    <li><a href=""><img
+                                src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+                                alt="" width="154px" height="20px"></a></li>
+                    <li>
+                        Movies
+                        <ul class="list_items">
+                            <li><a href="product/index.html">Popular</a></li>
+                            <li><a href="">Now Playing</a></li>
+                            <li><a href="">UpComing</a></li>
+                            <li><a href="">Top Rated</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        TV Shows
+                        <ul class="list_items">
+                            <li><a href="">Popular</a></li>
+                            <li><a href="">Airing Today</a></li>
+                            <li><a href="">On TV</a></li>
+                            <li><a href="">Top Rated</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        People
+                        <ul class="list_items">
+                            <li><a href="">Popular People</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        More
+                        <ul class="list_items">
+                            <li><a href="">Discussions</a></li>
+                            <li><a href="">Leaderboard</a></li>
+                            <li><a href="">Support</a></li>
+                            <li><a href="">API</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="sub_menu2">
+                <ul class="menu_items2">
+                    <li><a href=""><i class="fi fi-br-plus"></i></a></li>
+                    <li>
+                        <div class="translate">VI</div>
+                        <div class="translate-more">
+                            <h3>Language Preferences</h3>
+                            <form action="">
+                                <table>
+                                    <tr>
+                                        <th><a href="">Default Language</a></th>
+                                        <th style="text-align: right;"><a href="">Reset</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select name="" id="">
+                                                <option value="">Tiếng Việt</option>
+                                                <option value="">Tiếng Trung</option>
+                                                <option value="">Tiếng Anh</option>
+                                                <option value="">Tiếng Nga</option>
+                                                <option value="">Tiếng Thái Lan</option>
+                                                <option value="">Tiếng Malayxia</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="">Fallback Language</a></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select name="" id="">
+                                                <option value="">Tiếng Việt</option>
+                                                <option value="">Tiếng Trung</option>
+                                                <option value="">Tiếng Anh</option>
+                                                <option value="">Tiếng Nga</option>
+                                                <option value="">Tiếng Thái Lan</option>
+                                                <option value="">Tiếng Malayxia</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </li>
+                    <li><a href="home/login/index.html">Login</a></li>
+                    <li><a href="home/register/index.html">Join TMDB</a></li>
+                    <li><i class="fi fi-br-search"></i></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    <div class="box-find-menu">
+
+        <div class="find_menu">
+            <i class="fi fi-br-search"></i><input type="text" placeholder="Search for a movies, TV Shows, Person" >
+        </div>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+    
+
+        <div class="inner_content1">
+            <div class="title">
+                <h1>Welcome.</h1>
+                <h3>Millions of movies, TV shows and people to discover.
+                    Explore now.</h3>
+                <div class="find">
+                    <form action="">
+                        <input class="search" type="text" placeholder="Search for a movie, tv show,person......"
+                            name="search" id="">
+                        <input class="btn_search" type="submit" value="Search">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+        <div class="inner_content2">
+            <div class="head-content">
+                <h2>What's Popular</h2>
+                <ul>
+                    <li class="popular-item active1">On TV</li>
+                    <li class="popular-item">In Theaters</li>
+                    <li class="slide"></li>
+                </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="movies">
+                    <a href="details/index.html"><img
+                            src="https://i.ex-cdn.com/mgn.vn/files/content/2022/05/31/1-2005.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Thám Tử Lừng Danh Conan</h4>
+                        <p>Mar 28, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href="https://www.themoviedb.org/tv/197189-cara-e-coragem?language=vi"><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/8CXbCCGiJxi4AXPBQ1QPrehMIGG.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Cara e Coragem</h4>
+                        <p>May 30, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/xO0K7vTVVWnUfZjwMmNas0LP5Bk.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Vive Le Velo</h4>
+                        <p>Jul 02, 2005</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/2Wf5ySCPcnp8lRhbSD7jt0YLz5A.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>2 Good 2 Be True</h4>
+                        <p>May 16, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/yv57TccCkgdy3St7rspBPKROeRK.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Nữ Luật Sư Kỳ Lạ Woo Young Woo</h4>
+                        <p>Jun 29, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/7cdnr3Bu728ukVBDMcOZ8zLrwOt.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Love in 40 Days</h4>
+                        <p>May 30, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/8lIzd4bSU1xoWwcFihI3BzeWsz3.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Lua de Mel</h4>
+                        <p>Jun 06, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/6zBWSuYW3Ps1nTfeMS8siS4KUaA.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Thị Trấn Riverdale</h4>
+                        <p>Jan 26, 2017</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/8BzuwDAMamf5TX4TepbDDEq7ima.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Além da Ilusão</h4>
+                        <p>Feb 07, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/9jIatSC61s5Y3d5Q63yIeZFvP7u.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Primal</h4>
+                        <p>Oct 08, 2019</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/jfmQPOHnuARC7YxGYC1vMMph3vp.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>My Little Pony: Make Your Mark</h4>
+                        <p>May 26, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/17yQZnnodzS1ZrKcpqHnQV8eQGN.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Poliana Moça</h4>
+                        <p>Mar 21, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/xcvfGvsEyKm01dIHLh2gxnhM14A.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Love Island</h4>
+                        <p>Jun 07, 2015</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/wNN9hJDV45BF2PiJQQVwBCiqLIl.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>비밀의 집</h4>
+                        <p>Apr 11, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/cYEQjH7p3hhKbQtB8WGz66wMkfM.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Triệu Hồi Sư Áo Đen</h4>
+                        <p>Jul 09, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="	https://www.themoviedb.org/t/p/w220_and_h330_face/iB6x0bA9XdP4MH3i1zXjMzvTNSY.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Hãy Gọi Cho Saul</h4>
+                        <p>Feb 08, 2015</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/gkap4pWN722E0UK9WNL2vjGnAtw.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>A Family Affair</h4>
+                        <p>Jun 27, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/bAp4W1ppwVlp7EpJb91RwTTLhm3.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Quero é Viver</h4>
+                        <p>Jan 03, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="	https://www.themoviedb.org/t/p/w220_and_h330_face/f59z18NXPZrYizSD03Gwjfx3YyX.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>金装のヴェルメイユ~崖っぷち魔術師は最強の厄災と魔法世界を突き進む~</h4>
+                        <p>Jul 05, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+        <div class="inner_content3">
+            <div class="head-content">
+                <h2>Latest Trailers</h2>
+                <ul>
+                    <li class="active-trending active" >On TV</li>
+                    <li class="active-trending">In Theaters</li>
+                    <li class="slide"></li>
+                </ul>
+            </div>
+            <p>This panel didn't return any results. Try <a href="">refreshing</a> it.</p>
+        </div>
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+        <div class="inner_content2">
+            <div class="head-content">
+                <h2>Trending</h2>
+                <ul>
+                    <li class="popular-item active1">Today</li>
+                    <li class="popular-item">This Week</li>
+                    <li class="slide"></li>
+                </ul>
+            </div>
+            <div class="content content2">
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/aoc5hDig2is0MNBQS3vTFwg1Loe.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>The Gray Man</h4>
+                        <p>Jul 13, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/cjb9NXJvisfh5fmgX9rerxZfFrJ.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Jurassic World Dominion</h4>
+                        <p>Jun 01, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/xeg0UhMmzSalvyK7kvhTHcKXIf8.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Thor: Love and Thunder</h4>
+                        <p>Jul 06, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="	https://www.themoviedb.org/t/p/w220_and_h330_face/ovMxUPSSuvBD7GcgdQxzbJfsR8q.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Doctor Strange in the Multiverse of Madness</h4>
+                        <p>May 04, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/gjp14ZxpZZLyz7hvKPeJgXbRQuX.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Paws of Fury: The Legend of Hank</h4>
+                        <p>Jul 14, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="	https://www.themoviedb.org/t/p/w220_and_h330_face/3TNU7R7ggWCVCgjBfia0Xns3vqO.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>The Black Phone</h4>
+                        <p>Sep 25, 2021</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/aLeswI1zxf2xN5iIdcJpqx9XEnX.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Anything's Possible</h4>
+                        <p>Jul 22, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/4fkz8Gx3Laxufktpw20iOnnYTwv.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Black Panther: Wakanda Forever</h4>
+                        <p>Nov 09, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/v6y1WI9XR9vnhhLhvFfS11mlmIA.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>The Roundup</h4>
+                        <p>May 18, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/qVdpItrjj0dSNGXE9CAaRIGSti2.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Lightyear</h4>
+                        <p>Jun 15, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/49WJfeN0moxb9IPfGn8AIqMGskD.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Stranger Things</h4>
+                        <p>Jul 15, 2016</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/9RgrJSxt638Gc6KgQPHYBsK64lT.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Minions: The Rise of Gru</h4>
+                        <p>Jun 29, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="	https://www.themoviedb.org/t/p/w220_and_h330_face/qhRex189iu6Cs0dV7ahbuBaRgeK.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>She-Hulk: Attorney at Law</h4>
+                        <p>Aug 17, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/v6FjyMtSy1LzSArDvcAb8rWAwfh.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Top Gun: Maverick</h4>
+                        <p>May 24, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="	https://www.themoviedb.org/t/p/w220_and_h330_face/9YTuscJXmr9Iua62amCgGSU8PDW.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>The Witch: Part 2. The Other One</h4>
+                        <p>Jun 15, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="	https://www.themoviedb.org/t/p/w220_and_h330_face/w9rZk5N5STpFqhahEnPRRiqN9l5.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Fantastic Beasts: The Secrets of Dumbledore</h4>
+                        <p>Apr 06, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="	https://www.themoviedb.org/t/p/w220_and_h330_face/y4SQ2dJ1y2LBUnxTH7hCe8sr29c.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Spider-Man: No Way Home</h4>
+                        <p>Dec 15, 2021</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="	https://www.themoviedb.org/t/p/w220_and_h330_face/q2IlzP9bQNDdGLlX9jtms5MaOCh.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>Resident Evil</h4>
+                        <p>Jul 14, 2022</p>
+                    </div>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="	https://www.themoviedb.org/t/p/w220_and_h330_face/9YzTevVruxnE7UUrOwSgafMyFDY.jpg"
+                            alt=""></a>
+                    <div class="name_movies">
+                        <h4>The Lost City</h4>
+                        <p>Mar 24, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /* ------------------------------------------------------------------------------------------------------------------------------------------------ */ -->
+
+        <div class="inner_content4">
+            <h1 class="title" style="padding-bottom: 0;
+                                         padding-top: 30px;
+                                         font-size: 30px;">Join Today</h1>
+            <div class="intension">
+                <div class="intension1">
+                    <p>Get access to maintain your own <i>custom personal lists, track what you've seen</i> and search
+                        and filter for <i>what to watch next</i>—regardless if it's in theatres, on TV or available on
+                        popular streaming services like .</p>
+                    <button>Sign Up</button>
+                </div>
+                <div class="intension2">
+                    <ul>
+                        <li>Enjoy TMDB ad free</li>
+                        <li>Maintain a personal watchlist</li>
+                        <li>Filter by your subscribed streaming services and find something to watch</li>
+                        <li>Log the movies and TV shows you've seen</li>
+                        <li>Build custom lists</li>
+                        <li>Contribute to and improve our database</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- /* ------------------------------------------------------------------------------------------------------------------------------------------------ */ -->
+
+        <div class="inner_content5">
+            <div class="head-content">
+                <h2>Leaderboard</h2>
+                <div class="head-content-right">
+                    <div class="box">
+                        <div class="dot"
+                            style="background: linear-gradient(to right, rgba(192,254,257, 1) 0%, rgba(30,213,169, 1) 100%);">
+                        </div>
+                        <div class="Statistical-text">All Time Edits</div>
+                    </div>
+                    <div class="box">
+                        <div class="dot"
+                            style="background: linear-gradient(to right, rgba(253,192,112, 1) 0%, rgba(217,59,99, 1) 100%);">
+                        </div>
+                        <div class="Statistical-text">Edits This Week</div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <div class="hang">
+                    <div class="box">
+                        <div class="user1">
+                            <a href="">A</a>
+                        </div>
+                        <div class="Statistical">
+                            <a href="">Samara</a>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-all1"></div>
+                                <div class="number">2628136</div>
+                            </div>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-week1"></div>
+                                <div class="number">6479</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="user2">
+                            <a href="">B</a>
+                        </div>
+                        <div class="Statistical">
+                            <a href="">TMDB1980</a>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-all2"></div>
+                                <div class="number">47769</div>
+                            </div>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-week2"></div>
+                                <div class="number">5557</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="hang">
+                    <div class="box">
+                        <div class="user3">
+                            <a href="">C</a>
+                        </div>
+                        <div class="Statistical">
+                            <a href="">fzlins</a>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-all3"></div>
+                                <div class="number">109109</div>
+                            </div>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-week3"></div>
+                                <div class="number">5330</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="user4">
+                            <a href="">D</a>
+                        </div>
+                        <div class="Statistical">
+                            <a href="">raze464</a>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-all4"></div>
+                                <div class="number">374231</div>
+                            </div>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-week4"></div>
+                                <div class="number">4449</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="hang">
+                    <div class="box">
+                        <div class="user5">
+                            <a href="">E</a>
+                        </div>
+                        <div class="Statistical">
+                            <a href="">Michael</a>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-all5"></div>
+                                <div class="number">4136</div>
+                            </div>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-week5"></div>
+                                <div class="number">4136</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="user6">
+                            <a href="">F</a>
+                        </div>
+                        <div class="Statistical">
+                            <a href="">MidnightNeon</a>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-all6"></div>
+                                <div class="number">17150</div>
+                            </div>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-week6"></div>
+                                <div class="number">3890</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="hang">
+                    <div class="box">
+                        <div class="user7">
+                            <a href="">G</a>
+                        </div>
+                        <div class="Statistical">
+                            <a href="">pingu51</a>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-all7"></div>
+                                <div class="number">334803</div>
+                            </div>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-week7"></div>
+                                <div class="number">3718</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="user8">
+                            <a href="">H</a>
+                        </div>
+                        <div class="Statistical">
+                            <a href="">talestalker</a>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-all8"></div>
+                                <div class="number">772666</div>
+                            </div>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-week8"></div>
+                                <div class="number">3587</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="hang">
+                    <div class="box">
+                        <div class="user9">
+                            <a href="">I</a>
+                        </div>
+                        <div class="Statistical">
+                            <a href="">qualitylover</a>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-all9"></div>
+                                <div class="number">174453</div>
+                            </div>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-week9"></div>
+                                <div class="number">3127</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="user10">
+                            <a href="">K</a>
+                        </div>
+                        <div class="Statistical">
+                            <a href="">heli5m</a>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-all10"></div>
+                                <div class="number">423102</div>
+                            </div>
+                            <div style="display: flex;align-items: center;">
+                                <div class="Statistical-week10"></div>
+                                <div class="number">3119</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+    <footer>
+        <div class="footer">
+            <div class="head_footer">
+                <img src="img/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
+                    alt="">
+                <br>
+                <button>JOIN THE COMMUNITY</button>
+            </div>
+            <div class="body_footer">
+                <div class="inner_footer">
+                    <h2>THE BASICS</h2>
+                    <ul>
+                        <li><a href="">Giới thiệu về TMDB</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Support Forums</a></li>
+                        <li><a href="">API</a></li>
+                        <li><a href="">System Status</a></li>
+                    </ul>
+                </div>
+                <div class="inner_footer">
+                    <h2>GET INVOLVED</h2>
+                    <ul>
+                        <li><a href="">Contribution Bible</a></li>
+                        <li><a href="">Add New Movie</a></li>
+                        <li><a href="">Add New TV Show</a></li>
+                    </ul>
+                </div>
+                <div class="inner_footer">
+                    <h2>COMMUNITY</h2>
+                    <ul>
+                        <li><a href="">Guidelines</a></li>
+                        <li><a href="">Discussions</a></li>
+                        <li><a href="">Leaderboard</a></li>
+                        <li><a href="">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="inner_footer">
+                    <h2>LEGAL</h2>
+                    <ul>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">API Terms of Use</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.active-trending').on('click',function(){
+                $(this).siblings().removeClass('active');
+                $(this).addClass('active');
+            })
+        })
+
+        $(document).ready(function(){
+            $('.popular-item').on('click',function(){
+                $(this).siblings().removeClass('active1');
+                $(this).addClass('active1');
+            })
+        })
+
+        $(document).ready(function(){
+            $(".translate").click(function(){
+                $(".translate-more").toggle();
+            });
+        });
+
+        $(document).ready(function(){
+            $(".fi-br-search").click(function(){
+                $(".box-find-menu").toggle();
+            });
+        });
+    </script>
+    
+
+</body>
+
+</html>

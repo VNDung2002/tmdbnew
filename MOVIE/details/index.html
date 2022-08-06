@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets-20220804T082026Z-001/assets/style.css">
+    <title>TMDB.com</title>
+    <link rel="stylesheet" href="./assets-20220804T082026Z-001/assets/Font-icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets-20220804T082026Z-001/assets/responsive.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://www.themoviedb.org/assets/2/favicon-32x32-543a21832c8931d3494a68881f6afcafc58e96c5d324345377f3197a37b367b5.png">
+</head>
+
+<body>
+    <div class="Wrapper">
+
+        <div class="header">
+            <div class="nav">
+                <!-- ---------------  -->
+                <ul class="responsive">
+                    <li>
+                        <i class="fi fi-br-menu-burger"></i>
+                    </li>
+                    <li>
+                        <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
+                            alt="">
+                    </li>
+                    <li>
+                        <i class="fi fi-br-search"></i>
+                    </li>
+                </ul>
+                <!-- ---------------  -->
+                <div class="sub_menu1">
+                    <ul class="menu_items1">
+                        <li><a href="../../MOVIE/index.html"><img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg
+    " alt="" width="154px" height="20px"></a></li>
+                        <li>
+                            Movies
+                            <ul class="list_items">
+                                <li><a href="../../product/index.html">Popular</a></li>
+                                <li><a href="">Now Playing</a></li>
+                                <li><a href="">UpComing</a></li>
+                                <li><a href="">Top Rated</a></li>
+                            </ul>
+                        </li>
+                        <li class="TV">TV Shows
+                            <ul class="list_items">
+                                <li><a href="">Popular</a></li>
+                                <li><a href="">Airing Today</a></li>
+                                <li><a href="">On TV</a></li>
+                                <li><a href="">Top Rated</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            People
+                            <ul class="list_items">
+                                <li><a href="">Popular People</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            More
+                            <ul class="list_items">
+                                <li><a href="">Discussions</a></li>
+                                <li><a href="">Leaderboard</a></li>
+                                <li><a href="">Support</a></li>
+                                <li><a href="">API</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sub_menu2">
+                    <ul class="menu_items2">
+                        <li>
+                            <a href=""><i class="fi fi-br-plus"></i></a>
+                        </li>
+                        <li>
+                            <div class="translate">VI</div>
+                            <div class="translate-more">
+                                <h3>Language Preferences</h3>
+                                <form action="">
+                                    <table>
+                                        <tr>
+                                            <th><a href="">Default Language</a></th>
+                                            <th style="text-align: right;"><a href="">Reset</a></th>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <select name="" id="">
+                                                    <option value="">Tiếng Việt</option>
+                                                    <option value="">Tiếng Trung</option>
+                                                    <option value="">Tiếng Anh</option>
+                                                    <option value="">Tiếng Nga</option>
+                                                    <option value="">Tiếng Thái Lan</option>
+                                                    <option value="">Tiếng Malayxia</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="">Fallback Language</a></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <select name="" id="">
+                                                    <option value="">Tiếng Việt</option>
+                                                    <option value="">Tiếng Trung</option>
+                                                    <option value="">Tiếng Anh</option>
+                                                    <option value="">Tiếng Nga</option>
+                                                    <option value="">Tiếng Thái Lan</option>
+                                                    <option value="">Tiếng Malayxia</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </div>
+                        </li>
+                        <li><a href="../home/login/index.html">Login</a></li>
+                        <li><a href="../home/register/index.html">Join TMDB</a></li>
+                        <li><i class="fi fi-br-search"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="box-find-menu">
+            <div class="find_menu">
+                <i class="fi fi-br-search"></i><input type="text" placeholder="Search for a movies, TV Shows, Person">
+            </div>
+        </div>
+        <div id="Navigation" class="Navigation">
+            <ul class="nav2">
+                <li>
+                    <a href="#">Overview
+                        <i class="ti-arrow-circle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="../../MOVIE/index.html">Main</a></li>
+                        <li><a href="">Alternative Titles</a></li>
+                        <li><a href="">Cast & Crew</a></li>
+                        <li><a href="">Episode Groups</a></li>
+                        <li><a href="">Seasons</a></li>
+                        <li><a href="">Translations</a></li>
+                        <li><a href="">Changes</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Media
+                        <i class="ti-arrow-circle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="../../MOVIE/index.html">Backdrops</a></li>
+                        <li><a href="">Logos</a></li>
+                        <li><a href="">Posters</a></li>
+                        <li>
+                            <a class="item1" href="">Videos
+                                <ul class="subnav1">
+                                    <li>
+                                        <a>
+                                            <i class="ti-plus"></i>Login to as a video
+                                        </a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Fandom
+                        <i class="ti-arrow-circle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li class="subnav-item">
+                            <a href="../../MOVIE/index.html" class="item2-hover">Discussions
+                                <ul class="subnav2">
+                                    <li class="subnav2-item">
+                                        <a class="subnav2-item--link ">
+                                            <i class="ti-plus"></i>Over View
+                                        </a>
+                                    </li>
+                                    <li class="subnav2-item">
+                                        <a class="subnav2-item--link ">
+                                            <i class="ti-plus"></i>General
+                                        </a>
+                                    </li>
+                                    <li class="subnav2-item">
+                                        <a class="subnav2-item--link ">
+                                            <i class="ti-plus"></i>Content Issues
+                                        </a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="subnav-item">
+                            <a class="item2-hover">Reviews</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Share
+                        <i class="ti-arrow-circle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="">Share Link</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Tweet</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar">
+            <div class="content-img">
+                <a href="https://pops.vn/video/conan-tap-551-ke-sat-nhan-kudo-shinichi-p1-6266733cb386cd005a72f055" target="_blank"><img src="http://lovedia.vn/wp-content/uploads/2015/05/Detective-Conan-5.jpg" alt=""></a>
+            </div>
+            <div class="items-content">
+                <h1>
+                    Thám Tử Lừng Danh Conan
+                </h1>
+                <div class="hihi">
+                    <div class="text-content">
+                        <h5 style="border: 1px solid;">
+                            14+
+                        </h5>
+                        <h5 style="margin: 0 15px;">
+                            Ai sẽ là cô dâu của Shinichi (2022)
+                        </h5>
+                    </div>
+                    <div class="subitems">
+                        <div class="test">80<sup>%</sup>
+                        </div>
+                        <h3 class="film">Film Review</h3>
+                        <h3 class="play">
+                            <i class="ti-control-play">Play Trailer</i>
+                        </h3>
+                        <div class="circle">
+                            <a href=""><i class="ti-list"></i></a>
+                            <a href=""><i class="ti-heart"></i></a>
+                            <a href=""><i class="ti-notepad"></i></a>
+                            <a href=""><i class="ti-star"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text1">
+                    <h3>Giới thiệu</h3>
+                    <div class="text2">
+                        <p>Bối cảnh lần này diễn ra tại Shibuya, Tokyo đang nhộn nhịp mùa Halloween.Một hôn lễ được tổ
+                            chức ở Shibuya Hikarie.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider">
+
+            <div class="content3">
+                <div class="contents">
+                    <div class="name-sider">
+                        <h3>Seris Cast</h3>
+                    </div>
+
+                    <div class="list-slider">
+                        <div class="box">
+                            <div class="movies">
+                                <a href=""><img
+                                        src="https://i.pinimg.com/474x/d4/0f/a1/d40fa10e7fa9d13f8ae6848bec5b01e5--detective-conan.jpg"
+                                        alt=""></a>
+                                <div class="name_movies">
+                                    <h4>Conan & Bé Al</h4>
+                                    <p>Mar 28, 2022</p>
+                                </div>
+                            </div>
+                            <div class="movies">
+                                <a href=""><img
+                                        src="https://i.pinimg.com/originals/f8/80/e1/f880e1507290046935490a07b9793a1d.jpg"
+                                        alt=""></a>
+                                <div class="name_movies">
+                                    <h4>Conan & Bé Al</h4>
+                                    <p>Jul 02, 2005</p>
+                                </div>
+                            </div>
+
+                            <div class="movies">
+                                <a href=""><img style="height: 90px;"
+                                        src="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/12/31/edit--16409291802091936549745.jpeg"
+                                        alt=""></a>
+                                <div class="name_movies">
+                                    <h4>Conan & Bé Al</h4>
+                                    <p>Jul 02, 2005</p>
+                                </div>
+                            </div>
+
+                            <div class="movies">
+                                <a href=""><img
+                                        src="https://i.pinimg.com/736x/e0/c6/b0/e0c6b008a3dbd04bacf3c5954467050f--conan-x-ai-haibara-ai.jpg"
+                                        alt=""></a>
+                                <div class="name_movies">
+                                    <h4>Conan & Bé Al</h4>
+                                    <p>Jul 02, 2005</p>
+                                </div>
+                            </div>
+
+                            <div class="movies">
+                                <a href=""><img
+                                        src="https://i.pinimg.com/originals/a5/36/08/a53608fb9fa0439369272354d33c9490.jpg"
+                                        alt=""></a>
+                                <div class="name_movies">
+                                    <h4>Conan & Bé Al</h4>
+                                    <p>Jul 02, 2005</p>
+                                </div>
+                            </div>
+
+                            <div class="movies">
+                                <a href=""><img
+                                        src="http://images2.fanpop.com/image/photos/14200000/Conan-and-Haibara-conan-and-haibara-14244319-640-480.jpg"
+                                        alt=""></a>
+                                <div class="name_movies">
+                                    <h4>Conan & Bé Al</h4>
+                                    <p>Jul 02, 2005</p>
+                                </div>
+                            </div>
+
+                            <div class="movies">
+                                <a href=""><img
+                                        src="https://kenh14cdn.com/203336854389633024/2022/1/14/photo-1-164216410426013861599.gif.png"
+                                        alt=""></a>
+                                <div class="name_movies">
+                                    <h4>Conan & Bé Al</h4>
+                                    <p>Jul 02, 2005</p>
+                                </div>
+                            </div>
+
+                            <div class="movies">
+                                <a href=""><img
+                                        src="https://i.vietgiaitri.com/2022/1/5/bi-hoi-co-thich-conan-khong-haibara-dap-gon-5-chu-bao-dam-khien-fan-cap-shinichi---ran-nong-mau-721-6250798.jpg"
+                                        alt=""></a>
+                                <div class="name_movies">
+                                    <h4>Conan & Bé Al</h4>
+                                    <p>Jul 02, 2005</p>
+                                </div>
+                            </div>
+
+                            <div class="movies">
+                                <a href=""><img
+                                        src="https://i.pinimg.com/736x/c8/ff/59/c8ff596f6ff1fe1cb60a3c1d62aa8f91.jpg"
+                                        alt=""></a>
+                                <div class="name_movies">
+                                    <h4>Conan & Bé Al</h4>
+                                    <p>Jul 02, 2005</p>
+                                </div>
+                            </div>
+
+                            <div class="movies">
+                                <a href=""><img
+                                        src="https://i.pinimg.com/originals/f8/80/e1/f880e1507290046935490a07b9793a1d.jpg"
+                                        alt=""></a>
+                                <div class="name_movies">
+                                    <h4>Conan & Bé Al</h4>
+                                    <p>Jul 02, 2005</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fullcast1">
+                        <div class="fullcast">
+                            <h4> Full cast & Crew</h4>
+                        </div>
+                        <hr>
+                    </div>
+                    <h3>Current Season</h3>
+                    <div class="Season">
+                        <img src="https://kenh14cdn.com/thumb_w/600/203336854389633024/2022/1/4/photo1641311771939-1641311772508313630960.gif"
+                            alt="">
+                        <div class="Season1">
+                            <h3>Season 1</h3>
+                            <h4>2022 | 130 Episodes</h4>
+                            <p>Phim mới Thám Tử Lừng Danh Conan: Nàng Dâu Halloween ra mắt tại các rạp chiếu phim toàn
+                                quốc từ 22.07.2022.</p>
+                        </div>
+                    </div>
+                    <div class="fullcast">
+                        <h4> View All Seasons</h4>
+                    </div>
+                    <hr>
+                </div>
+                <div class="fullcast">
+                    <h3>A-list actor</h3>
+                    <p>Takayama Minami, Yamazaki Wakana, Hayashibara Megumi</p>
+                    <hr>
+                </div>
+                <div class="show-img">
+                    <h4 class="Media active1" >Media</h4>
+                    <h4 class="Popular">Popular</h4>
+                    <h4 class="Video">Video</h4>
+                    <h4 class="Backdrops">Backdrops</h4>
+                </div>
+                <div class="img-coco">
+                    <img class="img1" src="https://img.thuthuatphanmem.vn/uploads/2018/09/29/hinh-anh-conan-and-haibara_053228215.jpg" alt="">
+                    <img class="img2" src="http://images2.fanpop.com/image/photos/14200000/Conan-and-Haibara-conan-and-haibara-14244324-640-480.jpg" alt="">
+                    <img class="img3" src="https://kenh14cdn.com/zoom/600_315/203336854389633024/2021/12/20/photo1639993701021-16399937015261282876051.gif.png" alt="">
+                    <img class="img4" src="https://kenh14cdn.com/zoom/600_315/203336854389633024/2021/10/25/photo1635135112017-16351351122461774878731.jpg" alt="">
+                </div>
+                <hr>
+                <div class="fullcast">
+                    <h3>Recommendations</h3>
+                    <div class="img-last">
+                        <img src="https://img.wattpad.com/42edfd7bf2353b71f3dca532461131f337d61124/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f7764354d6b6e49636632305258773d3d2d3434383336373435362e3134643630343765376636623766363737323030353131323235372e6a7067?s=fit&w=720&h=720"
+                            alt="">
+                        <img src="https://i.vietgiaitri.com/2021/12/22/3-dac-quyen-cua-haibara-khi-o-canh-conan-ma-ran-khong-co-dieu-cuoi-dung-la-chi-mang-anti-fan-cung-phai-gat-gu-day-68e-6225147.jpg"
+                            alt="">
+                        <img src="https://img.wattpad.com/694bfd5e248aa97ce1260d604fa6c19949ef510e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f5275656d7a557272646c6a4563513d3d2d3434373330313135382e313464353564666164666539613365313932313537353631393539352e6a7067"
+                            alt="">
+                    </div>
+                </div>
+                <p class="dungdz"> Cùng chờ đợi sự trở lại của tụi mình nhé các wibu !!</p>
+
+            </div>
+            <!-- ----  -->
+
+
+            <div class="banner">
+                <h4>Facts</h4>
+                <h4 class="Status">Status</h4>
+                <p>Returning Series</p>
+                <h4>Networks</h4>
+                <img src="	https://www.themoviedb.org/t/p/h30/gVinXXdpdbLHuXTUUfx4R9PyuPB.svg" alt="">
+                <img src="https://www.themoviedb.org/t/p/h30/xal22lPb7A1c1FQoYdHzpOm37Kf.png
+                " alt="">
+                <h4>Type</h4>
+                <p>Scripted</p>
+                <h4>Original Language</h4>
+                <p>Tiếng Ta-ga-lọc</p>
+                <h3>Keywords
+                </h3>
+                <div class="Romantic">
+                    <h5>Romantic Comedy</h5>
+                    <h5>Sneezing</h5>
+                </div>
+                <div class="Cologne">
+                    <h5>Alleric Cologne</h5>
+                </div>
+                <hr>
+                <h3>Content Store</h3>
+                <div class="Almost">
+                    <div class="there">
+                        <h3>88</h3>
+                    </div>
+                </div>
+                <p>Almost there...</p>
+                <div class="Avatar">
+                    <h4>Top Contributors</h4>
+                    <div class="In4">
+                        <a href="https://www.facebook.com/MTP.Fan?fref=ts">
+                            <img src="http://images6.fanpop.com/image/photos/35300000/Richard-Kogoro-kogoro-mouri-35358236-553-415.jpg"
+                                alt="aa">
+                        </a>
+                        <div class="Info">
+                            <p>1966</p>
+                            <a href="https://www.facebook.com/MTP.Fan?fref=ts">Moridz_66</a>
+                        </div>
+                    </div>
+                    <div class="In4a">
+                        <a href="https://www.facebook.com/MTP.Fan?fref=ts">
+                            <img src="https://i.pinimg.com/originals/b1/e0/7a/b1e07a43bbd531cc87cbb412268e8cf1.jpg"
+                                alt="">
+                        </a>
+                        <div class="Info">
+                            <p>1983</p>
+                            <a href="https://www.facebook.com/MTP.Fan?fref=ts">RanMori_83</a>
+                        </div>
+                    </div>
+
+                    <div class="In4b">
+                        <a href="https://www.facebook.com/MTP.Fan?fref=ts">
+                            <img src="https://live.staticflickr.com/3382/5772261760_35e76b5f04_w.jpg" alt="">
+                        </a>
+                        <div class="Info">
+                            <p>1985</p>
+                            <a href="https://www.facebook.com/MTP.Fan?fref=ts">Haibara_85</a>
+                        </div>
+                    </div>
+
+                    <div class="In4c">
+                        <a href="https://www.facebook.com/MTP.Fan?fref=ts">
+                            <img src="https://i.pinimg.com/736x/c8/ff/59/c8ff596f6ff1fe1cb60a3c1d62aa8f91.jpg" alt="">
+                        </a>
+                        <div class="Info">
+                            <p>1983</p>
+                            <a href="https://www.facebook.com/MTP.Fan?fref=ts">Conan_83</a>
+                        </div>
+
+                    </div>
+                    <div class="ViewEdit">
+
+                        <p>View Edit History</p>
+
+                        <h4>Popularity Trend</h4>
+                        <div class="svg">
+                            <svg style="width: 100%; height: 70px; overflow: hidden; left: -0.2px; top: -0.6px;"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1">
+                                <defs></defs>
+                                <g>
+                                    <path d="M0 0 L 203 0 203 50 0 50Z" stroke="none" fill="none"></path>
+                                    <path d="M2 3 L 200 3 200 48 2 48Z" stroke="none" fill="#fff" fill-opacity="0">
+                                    </path>
+                                    <g>
+                                        <g></g>
+                                        <g></g>
+                                        <g>
+                                            <path style="display: none;" d="M101 3 L 101 48" stroke="#8e8e8e"
+                                                stroke-width="2" fill="none"></path>
+                                        </g>
+                                        <g></g>
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M16.143 8.625 L 44.429 7.5 72.714 21 101 45.75 129.286 27.75 157.571 16.5 185.857 10.875"
+                                                    stroke="#dddddd" stroke-width="2" fill="none"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g></g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="LoginEdit">
+                            <h3><i class="ti-lock">Login to Edit</i></h3>
+                        </div>
+                        <div class="keyboard">
+                            <p><i class="ti-blackboard"> Keyboard Shortcuts</i></p>
+                            <h4><i class="ti-info-alt"> Login to report an issue</i></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //////////////////////////////////////// -->
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="head_footer">
+                <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
+                    alt="">
+                <br>
+                <button>JOIN THE COMMUNITY</button>
+            </div>
+            <div class="body_footer">
+                <div class="inner_footer">
+                    <h2>THE BASICS</h2>
+                    <ul>
+                        <li><a href="">Giới thiệu về TMDB</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Support Forums</a></li>
+                        <li><a href="">API</a></li>
+                        <li><a href="">System Status</a></li>
+                    </ul>
+                </div>
+                <div class="inner_footer">
+                    <h2>GET INVOLVED</h2>
+                    <ul>
+                        <li><a href="">Contribution Bible</a></li>
+                        <li><a href="">Add New Movie</a></li>
+                        <li><a href="">Add New TV Show</a></li>
+                    </ul>
+                </div>
+                <div class="inner_footer">
+                    <h2>COMMUNITY</h2>
+                    <ul>
+                        <li><a href="">Guidelines</a></li>
+                        <li><a href="">Discussions</a></li>
+                        <li><a href="">Leaderboard</a></li>
+                        <li><a href="">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="inner_footer">
+                    <h2>LEGAL</h2>
+                    <ul>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">API Terms of Use</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js
+"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".translate").click(function () {
+                $(".translate-more").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".Media").click(function () {
+                $(".img1").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".Popular").click(function () {
+                $(".img2").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".Video").click(function () {
+                $(".img3").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".Backdrops").click(function () {
+                $(".img4").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".Media").on("click", function () {
+                $(this).siblings().removeClass("img2, img3, img4");
+                $(this).addClass(".Media");
+            });
+        });
+
+        $(document).ready(function () {
+            $('h4').on('click', function() {
+                $(this).siblings().removeClass('active1');
+                $(this).addClass('active1')
+            });
+        });
+
+        $(document).ready(function(){
+            $(".fi-br-search").click(function(){
+                $(".box-find-menu").toggle();
+            });
+        });
+
+    </script>
+</body>
+
+</html>

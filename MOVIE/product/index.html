@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="../home/home page/responsive.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="nav">
+
+            <ul class="responsive">
+                <li>
+                    <i class="fi fi-br-menu-burger"></i>
+                </li>
+                <li>
+                    <img src="../../img/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
+                        alt="">
+                </li>
+                <li>
+                    <i class="fi fi-br-search"></i>
+                </li>
+            </ul>
+
+            <div class="sub_menu1">
+                <ul class="menu_items1">
+
+                    <li><a href="../index.html"><img
+                                src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+                                alt="" width="154px" height="20px"></a></li>
+                    <li>
+                        <a href="">Movies</a>
+                        <ul class="list_items">
+                            <li><a href="">Popular</a></li>
+                            <li><a href="">Now Playing</a></li>
+                            <li><a href="">UpComing</a></li>
+                            <li><a href="">Top Rated</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">TV Shows</a>
+                        <ul class="list_items">
+                            <li><a href="">Popular</a></li>
+                            <li><a href="">Airing Today</a></li>
+                            <li><a href="">On TV</a></li>
+                            <li><a href="">Top Rated</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">People</a>
+                        <ul class="list_items">
+                            <li><a href="">Popular People</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">More</a>
+                        <ul class="list_items">
+                            <li><a href="">Discussions</a></li>
+                            <li><a href="">Leaderboard</a></li>
+                            <li><a href="">Support</a></li>
+                            <li><a href="">API</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="sub_menu2">
+                <ul class="menu_items2">
+                    <li><a href=""><i class="fi fi-br-plus"></i></a></li>
+                    <li>
+                        <div class="translate">VI</div>
+                        <div class="translate-more">
+                            <h3>Language Preferences</h3>
+                            <form action="">
+                                <table>
+                                    <tr>
+                                        <th><a href="">Default Language</a></th>
+                                        <th style="text-align: right;"><a href="">Reset</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select name="" id="">
+                                                <option value="">Tiếng Việt</option>
+                                                <option value="">Tiếng Trung</option>
+                                                <option value="">Tiếng Anh</option>
+                                                <option value="">Tiếng Nga</option>
+                                                <option value="">Tiếng Thái Lan</option>
+                                                <option value="">Tiếng Malayxia</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="">Fallback Language</a></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select name="" id="">
+                                                <option value="">Tiếng Việt</option>
+                                                <option value="">Tiếng Trung</option>
+                                                <option value="">Tiếng Anh</option>
+                                                <option value="">Tiếng Nga</option>
+                                                <option value="">Tiếng Thái Lan</option>
+                                                <option value="">Tiếng Malayxia</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </li>
+                    <li><a href="../home/login/index.html">Login</a></li>
+                    <li><a href="../home/register/index.html">Join TMDB</a></li>
+                    <li><i class="fi fi-br-search"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="box-find-menu">
+
+            <div class="find_menu">
+                <i class="fi fi-br-search"></i><input type="text" placeholder="Search for a movies, TV Shows, Person" >
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Popular Movies</h2>
+        <div style="display: flex;">
+            <div class="banner">
+                <div class="head-sort">
+                    <p>Sort <img src="../img/angle-right-free-icon-font.png" alt=""></p>
+                    <ul>
+                        <li>Sort Results By</li>
+                        <li>
+                            <select name="" id="">
+                                <option value="">Popularity Descending</option>
+                                <option value="">Popularity Ascending</option>
+                                <option value="">Rating Descending</option>
+                                <option value="">Rating Ascending</option>
+                                <option value="">Release Date Descending</option>
+                                <option value="">Release Date Ascending</option>
+                                <option value="">Title (A-Z)</option>
+                                <option value="">Title (Z-A)</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="filters">
+                    <p>Filters <img src="../img/angle-right-free-icon-font.png" alt=""></p>
+                    <ul>
+                        <li>Show Me</li>
+                        <li>
+                            <input type="radio" name="select">Everything
+                        </li>
+                        <li>
+                            <input type="radio" name="select">Movies I Haven't Seen
+                        </li>
+                        <li>
+                            <input type="radio" name="select">Movies I Have Seen
+                        </li>
+                        <li style="padding-bottom: 5px;">Availabilities</li>
+                        <li style="padding-top: 0;
+                                border-bottom : 1px solid #eee;">
+                            <input type="checkbox">
+                            Search all availabilities?
+                        </li>
+                        <li style="padding-bottom: 5px;">Release Dates</li>
+                        <li style="padding-top: 0;">
+                            <input type="checkbox">
+                            Search all releases?
+                        </li>
+                        <li style="padding: 0 14px;">
+                            from
+                            <input type="text" class="date">
+                        </li>
+                        <li style="border-bottom : 1px solid #eee;">
+                            to
+                            <input type="text" class="date" style="margin-left: 28%;">
+                        </li>
+                        <li>Genres</li>
+                        <li id="type">Chương Trình Truyền Hình</li>
+                        <li id="type">Phim Bí Ẩn</li>
+                        <li id="type">Phim Chiến Tranh</li>
+                        <li id="type">Phim Chính Kịch</li>
+                        <li id="type">Phim Gia Đình</li>
+                        <li id="type">Phim Giả Tượng</li>
+                        <li id="type">Phim Gây Cấn</li>
+                        <li id="type">Phim Hoạt Hình</li>
+                        <li id="type">Phim Hài</li>
+                        <li id="type">Phim Hành Động</li>
+                        <li id="type">Phim Hình Sự</li>
+                        <li id="type">Phim Khoa Học Viễn Tưởng</li>
+                        <li id="type">Phim Kinh Dị</li>
+                        <li id="type">Phim Lãng Mạn</li>
+                        <li id="type">Phim Lịch Sử</li>
+                        <li id="type">Phim Miền Tây</li>
+                        <li id="type">Phim Nhạc</li>
+                        <li id="type">Phim Phiêu Lưu</li>
+                        <li id="type">Phim Tài Liệu</li>
+                        <li style="border-bottom: 1px solid #eee;border-top: 1px solid #eee;">Certification</li>
+                        <li>Language</li>
+                        <li>
+                            <select name="" id="">
+                                <option value="">None Selected</option>
+                                <option value="">Tiếng Anh</option>
+                                <option value="">Tiếng Việt</option>
+                                <option value="">Tiếng Nhật</option>
+                                <option value="">Tiếng Hàn</option>
+                                <option value="">Tiếng Trung</option>
+                                <option value="">Tiếng Nga</option>
+                                <option value="">Tiếng Mĩ</option>
+                            </select>
+                        </li>
+                        <li style="border-top: 1px solid #eee;">Keywords
+                            <input class="keywords" type="text" placeholder="Filter by keywords...">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="watch">
+                    <p>Where To Watch <img src="../img/angle-right-free-icon-font.png" alt=""></p>
+                    <ul>
+                        <li style="padding-bottom: 5px;">My Services</li>
+                        <li style="padding-top: 0; border-bottom : 1px solid #eee;">
+                            <input type="checkbox">Restrict searches to my subscribed services?
+                        </li>
+                        <li>Country</li>
+                        <li>
+                            <select name="" id="">
+                                <option value="">Việt Nam</option>
+                                <option value="">Trung Quốc</option>
+                                <option value="">Nhật Bản</option>
+                                <option value="">Hàn Quốc</option>
+                                <option value="">Ai Cập</option>
+                                <option value="">Ailen</option>
+                                <option value="">Andorra</option>
+                                <option value="">Brazil</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <h3>Search</h3>
+                </div>
+            </div>
+
+            <div class="main_content">
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/xeg0UhMmzSalvyK7kvhTHcKXIf8.jpg"
+                            title="Thor: Tình Yêu và Sấm Sét" alt=""></a>
+                    <a href="">
+                        <h3>Thor: Tình Yêu và Sấm Sét</h3>
+                    </a>
+                    <p>Jul 06, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/cjb9NXJvisfh5fmgX9rerxZfFrJ.jpg"
+                            title="Thế Giới Khủng Long: Lãnh Địa" alt=""></a>
+                    <a href="">
+                        <h3>Thế Giới Khủng Long: Lãnh Địa</h3>
+                    </a>
+                    <p>Jun 01, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/9RgrJSxt638Gc6KgQPHYBsK64lT.jpg"
+                            title="Minions: Sự Trỗi Dậy của Gru" alt=""></a>
+                    <a href="">
+                        <h3>Minions: Sự Trỗi Dậy của Gru</h3>
+                    </a>
+                    <p>Jun 29, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/v6FjyMtSy1LzSArDvcAb8rWAwfh.jpg"
+                            title="Phi Công Siêu Đẳng: Maverick" alt=""></a>
+                    <a href="">
+                        <h3>Phi Công Siêu Đẳng: Maverick</h3>
+                    </a>
+                    <p>May 24, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/3TNU7R7ggWCVCgjBfia0Xns3vqO.jpg"
+                            title="Điện Thoại Đen" alt=""></a>
+                    <a href="">
+                        <h3>Điện Thoại Đen</h3>
+                    </a>
+                    <p>Jun 22, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/qVdpItrjj0dSNGXE9CAaRIGSti2.jpg"
+                            title="Lightyear: Cảnh Sát Vũ Trụ" alt=""></a>
+                    <a href="">
+                        <h3>Lightyear: Cảnh Sát Vũ Trụ</h3>
+                    </a>
+                    <p>Jun 15, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/ovMxUPSSuvBD7GcgdQxzbJfsR8q.jpg"
+                            title="Doctor Strange: Đa Vũ Trụ Hỗn Loạn" alt=""></a>
+                    <a href="">
+                        <h3>Doctor Strange: Đa Vũ Trụ Hỗn Loạn</h3>
+                    </a>
+                    <p>May 04, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/aoc5hDig2is0MNBQS3vTFwg1Loe.jpg"
+                            title="Đặc Vụ Vô Hình" alt=""></a>
+                    <a href="">
+                        <h3>Đặc Vụ Vô Hình</h3>
+                    </a>
+                    <p>Jul 13, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/uSMJbYhaEpQtF9vkMhpgljc0CA4.jpg"
+                            title="Dragon Knight" alt=""></a>
+                    <a href="">
+                        <h3>Dragon Knight</h3>
+                    </a>
+                    <p>Mar 21, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/hangTmbxpSV4gpHG7MgSlCWSSFa.jpg"
+                            title="Sự Trừ Tà Của Chúa" alt=""></a>
+                    <a href="">
+                        <h3>Sự Trừ Tà Của Chúa</h3>
+                    </a>
+                    <p>Mar 11, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/9pCoqX24a6rE981fY1O3PmhiwrB.jpg"
+                            title="The Princess" alt=""></a>
+                    <a href="">
+                        <h3>The Princess</h3>
+                    </a>
+                    <p>Jun 16, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/b5ug4LyLQFeR6azAJyIPBQz5ur9.jpg"
+                            title="Shut In" alt=""></a>
+                    <a href="">
+                        <h3>Shut In</h3>
+                    </a>
+                    <p>Mar 24, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/3YNMvQQFOzcTsCpE6pKekOOJ8HI.jpg"
+                            title="Vực Thẳm" alt=""></a>
+                    <a href="">
+                        <h3>Vực Thẳm</h3>
+                    </a>
+                    <p>Feb 18, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/yzQ9YUXH9Tfj8MDU66i4wSFrBvt.jpg"
+                            title="Last Seen Alive" alt=""></a>
+                    <a href="">
+                        <h3>Last Seen Alive</h3>
+                    </a>
+                    <p>May 19, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/y4SQ2dJ1y2LBUnxTH7hCe8sr29c.jpg"
+                            title="Spider-Man: Người Nhện Không Còn Nhà" alt=""></a>
+                    <a href="">
+                        <h3>Spider-Man: Người Nhện Không Còn Nhà</h3>
+                    </a>
+                    <p>Dec 15, 2021</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/jgXIYLDF1fy20hP3EJtITb3rfwE.jpg"
+                            title="Nhím Sonic 2" alt=""></a>
+                    <a href="">
+                        <h3>Nhím Sonic 2</h3>
+                    </a>
+                    <p>Mar 30, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/tVbO8EAbegVtVkrl8wNhzoxS84N.jpg"
+                            title="Indemnity" alt=""></a>
+                    <a href="">
+                        <h3>Indemnity</h3>
+                    </a>
+                    <p>Feb 11, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/7InGE2Sux0o9WGbbn0bl7nZzqEc.jpg"
+                            title="Vendetta" alt=""></a>
+                    <a href="">
+                        <h3>Vendetta</h3>
+                    </a>
+                    <p>May 17, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/rkpLvPDe0ZE62buUS32exdNr7zD.jpg"
+                            title="Dog" alt=""></a>
+                    <a href="">
+                        <h3>Dog</h3>
+                    </a>
+                    <p>Feb 17, 2022</p>
+                </div>
+                <div class="movies">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/TUmSO5EPIZAfRSOEjmbrgbTw8i.jpg"
+                            title="Hot Seat" alt=""></a>
+                    <a href="">
+                        <h3>Hot Seat</h3>
+                    </a>
+                    <p>Jul 01, 2022</p>
+                </div>
+
+                <div class="movies more">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/ro3yvVbzT2zI2KrHWBA81a2x5iR.jpg"
+                            title="Asking For It" alt=""></a>
+                    <a href="">
+                        <h3>Asking For It</h3>
+                    </a>
+                    <p>Mar 04, 2022</p>
+                </div>
+                <div class="movies more">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/zhLKlUaF1SEpO58ppHIAyENkwgw.jpg"
+                            title="Chiến Binh Phương Bắc" alt=""></a>
+                    <a href="">
+                        <h3>Chiến Binh Phương Bắc</h3>
+                    </a>
+                    <p>Apr 07, 2022</p>
+                </div>
+                <div class="movies more">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/ix6JiJNOQt05IDhmaRlgWmvpB6W.jpg"
+                            title="Thợ Săn Cổ Vật" alt=""></a>
+                    <a href="">
+                        <h3>Thợ Săn Cổ Vật</h3>
+                    </a>
+                    <p>Feb 10, 2022</p>
+                </div>
+                <div class="movies more">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/nMp4tu8XuVG3CSWdXTFiHLdngnc.jpg"
+                            title="Người Dơi: Vạch Trần Sự Thật" alt=""></a>
+                    <a href="">
+                        <h3>Người Dơi: Vạch Trần Sự Thật</h3>
+                    </a>
+                    <p>Mar 01, 2022</p>
+                </div>
+                <div class="movies more">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/nS41LN1m2HYvVotvgOTcbPW2cjL.jpg"
+                            title="Green Lantern: Beware My Power" alt=""></a>
+                    <a href="">
+                        <h3>Green Lantern: Beware My Power</h3>
+                    </a>
+                    <p>Jul 12, 2022</p>
+                </div>
+                <div class="movies more">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/cuFPxoFopAjFUz4oIMUzpzeTA8I.jpg"
+                            title="9 Bullets" alt=""></a>
+                    <a href="">
+                        <h3>9 Bullets</h3>
+                    </a>
+                    <p>Apr 14, 2022</p>
+                </div>
+                <div class="movies more">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/n46rT8fTXesVBXzUwLGkWCHHuIC.jpg"
+                            title="La pasajera" alt=""></a>
+                    <a href="">
+                        <h3>La pasajera</h3>
+                    </a>
+                    <p>Jun 03, 2022</p>
+                </div>
+                <div class="movies more">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/5hTK0J9SGPLSTFwcbU0ELlJsnAY.jpg"
+                            title="Spiderhead" alt=""></a>
+                    <a href="">
+                        <h3>Spiderhead</h3>
+                    </a>
+                    <p>Jun 15, 2022</p>
+                </div>
+                <div class="movies more">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/wWL205mZBcOP4GNtdhztAvqTgUG.jpg"
+                            title="Encanto: Vùng Đất Thần Kỳ" alt=""></a>
+                    <a href="">
+                        <h3>Encanto: Vùng Đất Thần Kỳ</h3>
+                    </a>
+                    <p>Nov 24, 2021</p>
+                </div>
+                <div class="movies more">
+                    <a href=""><img
+                            src="https://www.themoviedb.org/t/p/w220_and_h330_face/2MJz10b6ItzpKm3vb95S3X5Vcna.jpg"
+                            title="Thanh Gươm Diệt Quỷ : Chuyến Tàu Vô Tận" alt=""></a>
+                    <a href="">
+                        <h3>Thanh Gươm Diệt Quỷ : Chuyến Tàu Vô Tận</h3>
+                    </a>
+                    <p>Oct 16, 2020</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="search loadmore">
+            <h3>Load More</h3>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="head_footer">
+                <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
+                    alt="">
+                <br>
+                <button>JOIN THE COMMUNITY</button>
+            </div>
+            <div class="body_footer">
+                <div class="inner_footer">
+                    <h2>THE BASICS</h2>
+                    <ul>
+                        <li><a href="">Giới thiệu về TMDB</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Support Forums</a></li>
+                        <li><a href="">API</a></li>
+                        <li><a href="">System Status</a></li>
+                    </ul>
+                </div>
+                <div class="inner_footer">
+                    <h2>GET INVOLVED</h2>
+                    <ul>
+                        <li><a href="">Contribution Bible</a></li>
+                        <li><a href="">Add New Movie</a></li>
+                        <li><a href="">Add New TV Show</a></li>
+                    </ul>
+                </div>
+                <div class="inner_footer">
+                    <h2>COMMUNITY</h2>
+                    <ul>
+                        <li><a href="">Guidelines</a></li>
+                        <li><a href="">Discussions</a></li>
+                        <li><a href="">Leaderboard</a></li>
+                        <li><a href="">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="inner_footer">
+                    <h2>LEGAL</h2>
+                    <ul>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">API Terms of Use</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".head-sort p").click(function () {
+                $(".head-sort li").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".filters p").click(function () {
+                $(".filters li").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".watch p").click(function () {
+                $(".watch li").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".loadmore").click(function () {
+                $(".more").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".translate").click(function () {
+                $(".translate-more").toggle();
+            });
+        });
+
+        $(document).ready(function(){
+            $(".fi-br-search").click(function(){
+                $(".box-find-menu").toggle();
+            });
+        });
+    </script>
+</body>
+
+</html>
